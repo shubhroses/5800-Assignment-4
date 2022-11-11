@@ -2,7 +2,7 @@ public class Account{
 	private AccountHolder holder;
 	private double balance = 0;
 	
-	public Account(double amt, AccountHolder holder) {
+	public Account(int amt, AccountHolder holder) {
 		this.holder = holder;
 		this.balance = amt;
 	}

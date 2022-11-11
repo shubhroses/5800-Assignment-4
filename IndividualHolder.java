@@ -1,4 +1,4 @@
-public class IndividualHolder extends AccountHolder {
+public class IndividualHolder extends AccountHolder implements Util{
 	private String name;
 	private String SSN;
 	public IndividualHolder(int ID, String address, String name, String SSN) {
@@ -17,5 +17,8 @@ public class IndividualHolder extends AccountHolder {
 	}
 	public void setSSN(String sSN) {
 		SSN = sSN;
+	}
+	public String convertNameUpper(String name) {
+		return name.toUpperCase();
 	}
 }

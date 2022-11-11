@@ -1,6 +1,6 @@
-public class CorporateHolder extends Account {
+public class CorporateHolder extends AccountHolder{
 	private String contact;
-	public CorporateHolder (int ID, AccountHolder address, String contact) {
+	public CorporateHolder (int ID, String address, String contact) {
 		super(ID, address);
 		this.contact = contact;
 	}
@@ -11,3 +11,4 @@ public class CorporateHolder extends Account {
 		this.contact = contact;
 	}
 }
+

@@ -1,7 +1,7 @@
-public class IndividualHolder extends Account {
+public class IndividualHolder extends AccountHolder {
 	private String name;
 	private String SSN;
-	public IndividualHolder(int ID, AccountHolder address, String name, String SSN) {
+	public IndividualHolder(int ID, String address, String name, String SSN) {
 		super(ID, address);
 		this.name = name;
 		this.SSN = SSN;
